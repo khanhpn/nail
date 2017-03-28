@@ -1,0 +1,7 @@
+ul
+  - @categories.each do |cat|
+    li 
+      = cat.name
+      br
+      = cat.products.size
+    br
