@@ -12,3 +12,6 @@
     category.products.create({name: "product_#{item}", price: item, description: "This is description #{item}"})
   end
 end
+
+# create superadmin
+user = User.create({email: "admin@fancynail.com", password: "adminfancynailqaz1234567890", super_admin_role: true})

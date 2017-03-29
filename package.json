@@ -1,0 +1,11 @@
+{
+  "name": "nail",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:khanhpn/nail.git",
+  "author": "khanhpn <khanhpham@bravesoft.vn>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
